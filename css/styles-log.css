@@ -1,0 +1,67 @@
+
+.container-fluid{ 
+    padding: 2% 15%;
+    text-align: center;
+}
+
+.brand-logo{
+
+    display: inline-block;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    
+}
+
+.contents{
+    margin-top: 20%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.3rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item{
+    font-size: 1.5rem;
+}
+
+.lead{
+    size: 10%;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-nav {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .nav-link {
+        display: block;
+        margin: 10px 0;
+    }
+    .navbar-nav .nav-item {
+        display: block;
+    }
+}
+
+.card {
+    position: relative;
+    padding-bottom: 5px;
+    margin: 0 auto 50px; 
+    float: none; 
+    width: 60%;
+    
+}
+
+.btn{
+    color: grey;
+}
+
